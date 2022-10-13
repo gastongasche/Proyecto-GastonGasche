@@ -10,8 +10,8 @@ header {
     overflow: hidden;
     background: #1f1f1f;
     margin-bottom: 20px;
-    font-family:'Bebas Neue';
-    font-weight: bold;
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight: bolder;
 }
 
 .wrapper {
@@ -23,7 +23,7 @@ header {
 
 header .logo {
     color: aliceblue;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 200px;
     float: left;
 }
@@ -34,13 +34,14 @@ header nav {
 }
 
 header nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     color: aliceblue;
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 12px;
+    /*font-weight: bold;*/
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -303,7 +304,7 @@ textarea:hover {
     text-align: justify;
     font-size: 12px;
     padding: 45px;
-    background-color: #13161b;
+    background-color: #232425;
     color: #aba992;
     /*margin-left: 40px;
     margin-right: 40px;*/
@@ -358,8 +359,10 @@ a:hover {
     font-size: 13px;
     font-weight: bolder;
     padding: 12px;
-    background-color: #13161b;
+    background-color: #232425;
     margin-top: -20px;
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight: bolder;
 }
 @media screen and (max-width: 768px) {
     #proyectos {
