@@ -7,24 +7,18 @@
 /*****************header***************/
 header {
     width: 100%;
-    /* Establecemos que el header abarque el 100% del documento */
     overflow: hidden;
-    /* Eliminamos errores de float */
     background: #1f1f1f;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Bebas Neue';
     font-weight: bold;
 }
 
 .wrapper {
     width: 90%;
-    /* Establecemos que el ancho sera del 90% */
     max-width: 1000px;
-    /* Aqui le decimos que el ancho máximo sera de 1000px */
     margin: auto;
-    /* Centramos los elementos */
     overflow: hidden;
-    /* Eliminamos errores de float */
 }
 
 header .logo {
@@ -45,7 +39,7 @@ header nav a {
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -53,8 +47,8 @@ header nav a {
 }
 
 header nav a:hover {
-    background: #aba992;
-    border-radius: 3px;
+    border-radius: 2px;
+    color: aliceblue;
 }
 
 .header2 {
@@ -77,7 +71,6 @@ header nav a:hover {
     header nav {
         width: 100%;
         text-align: center;
-        /*Centramos el menu y el logotipo*/
         line-height: 100px;
     }
 
@@ -95,7 +88,8 @@ header nav a:hover {
 body {
     font-family: 'Lato', sans-serif;
     color: rgb(46, 46, 46);
-    background-image: url("imagenes/Tiendas\ Naturales-131.jpg");
+    background-color: #c45b3d;
+    /*background-image: url("imagenes/Tiendas\ Naturales-131.jpg");*/
     width: 100%;
     height: 100vh;
 }
@@ -121,7 +115,8 @@ body {
 }
 
 #contactofondo {
-    background-image: url("imagenes/Levis-53.jpg");
+    /*background-image: url("imagenes/Levis-53.jpg");*/
+    background-color: #1f1f1f;
 
 }
 
@@ -137,40 +132,7 @@ body {
     font-size: 12px;
     padding: 12px;
 }
-
-/*header {
-    position: relative;
-    margin: 45px 0 25px 0;
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 3px;
-}
-.lista {
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin: 0;
-    width: 180px;
-    background-color: aliceblue;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-li a {
-    display: flex;
-    flex-direction: column;
-    color: #000;
-    padding: 12px 15px;
-    text-decoration: none;
-    text-align: justify;
-}
-
-li a:hover {
-    background-color: #1f1f1f;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-/*****contacto****/
+/*****contacto****************************************************************/
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -265,7 +227,12 @@ textarea:hover:focus:-ms-placeholder {
     width: 500px;
     margin: 50px auto 100px auto;
 }
-
+@media screen and (max-width: 768px) {
+    #form {
+        height: auto;
+        text-align: center;
+    }
+}
 input {
     background: #1f1f1f15;
     font-family: 'Lato', sans-serif;
@@ -328,8 +295,7 @@ textarea:hover {
     background: #1f1f1f;
     color: #aba992;
 }
-
-/**** nosotros **/
+/************************** nosotros **/
 .nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -337,8 +303,8 @@ textarea:hover {
     text-align: justify;
     font-size: 12px;
     padding: 45px;
-    background-color: #20202056;
-    color: aliceblue;
+    background-color: #13161b;
+    color: #aba992;
     /*margin-left: 40px;
     margin-right: 40px;*/
     margin-top: -20px;
@@ -354,64 +320,14 @@ a:visited {
 }
 
 a:hover {
-    color: #1f1f1f;
+    color: aliceblue;
 }
 
-/***********************/
-/*#belen {
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr;1fr;
-    background-color: #1f1f1f;
-    margin: 25px;
-    text-align: justify;
-    font-size: 12px;
-    padding: 15px;
+@media screen and (max-width: 768px) {
+    .nosotros {
+        grid-template-columns: 1fr;
+    }
 }
-#gaston {
-    justify content: border:;
-    justify-items: auto;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background-color: #1f1f1f;
-    margin: 25px;
-    text-align: justify;
-    font-size: 12px;
-    padding: 15px;
-}
-footer{
-    width: 100%;
-    padding: 50px 0px;
-    background-image: url(../Images/background-footer.svg);
-    background-size: cover;
-    /*background-color: #d0f0f8;
-    -webkit-mask-image: url("../Images/background-footer.svg");
-    mask-image: url("../Images/background-footer.svg");
-    -webkit-mask-size: cover;
-    mask-size: cover;*/
-/*.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-    text-align: justify;
-    font-size: 10px;
-}*/
-/*.box__footer{
-    display: flex;
-    flex-direction: right;
-    padding: 40px;
-}
-/*position:fixed;
-left:0px;
-bottom:0px;I
-height:30px;
-width:100%;
-background:#999;*/
 .box__copyright {
     /*max-width: 1200px;
     margin: auto;
@@ -420,7 +336,7 @@ background:#999;*/
     color: aliceblue;
     font-size: 10px;*/
     position: fixed;
-    left: 1080px;
+    left: 1150px;
     bottom: 0px;
     height: 30px;
     width: 100%;
@@ -433,19 +349,30 @@ background:#999;*/
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
 }
+
 #proyectos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 0px;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 15px;
     text-align: center;
     font-size: 13px;
+    font-weight: bolder;
     padding: 12px;
-    background-color: #20202056;
-    color: #1f1f1f;
+    background-color: #13161b;
     margin-top: -20px;
 }
-
-link {
-    text-decoration: none;
-    color: #1f1f1f;
+@media screen and (max-width: 768px) {
+    #proyectos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    #proyectos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 576px) {
+    #proyectos {
+        grid-template-columns: 1fr;
+    }
 }
