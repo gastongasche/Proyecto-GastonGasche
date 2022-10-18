@@ -252,7 +252,6 @@ textarea {
 			font-size: 0.875em;
 			color: aliceblue;
 			font-size: 0.875em;
-		}
 		background: #1f1f1f;
 		color: #aba992;
 	}
@@ -343,53 +342,6 @@ a {
 }
 @media screen and (max-width: 576px) {
 	#proyectos {
-		grid-template-columns: 1fr;
-	}
-}
-footer {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	position: absolute;
-	bottom: 0;
-	padding: 12px;
-	font-size: 11px;
-	padding: 12px;
-	color: aliceblue;
-	.social-link {
-		&:nth-of-type(2) {
-			background-image: url(/moreno/imagenes/InstagramBlanco.png);
-		}
-		&:nth-of-type(3) {
-			background-image: url(/moreno/imagenes/icons8-twitter-64.png);
-		}
-	}
-}
-.menu-item-footer {
-	&:hover {
-		opacity: 2;
-	}
-}
-.social-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 25px;
-	width: 100%;
-}
-.social-link {
-	height: 100%;
-	width: 30px;
-	background-image: url(/moreno/imagenes/icons8-facebook-f-50.png);
-	background-size: 70%;
-	background-position: center;
-	margin-right: 1rem;
-	background-repeat: no-repeat;
-	&:hover {
-		opacity: 0.7;
-	}
-}
-@media screen and (max-width: 576px) {
-	footer {
 		grid-template-columns: 1fr;
 	}
 }
