@@ -5,6 +5,7 @@
 }
 
 /*****************header***************/
+
 header {
     width: 100%;
     overflow: hidden;
@@ -84,7 +85,6 @@ header nav a:hover {
         line-height: 50px;
     }
 }
-
 /***finaliza header*/
 body {
     font-family: 'Lato', sans-serif;
