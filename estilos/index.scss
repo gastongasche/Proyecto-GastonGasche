@@ -237,93 +237,93 @@ textarea {
 		color: aliceblue;
 		font-size: 0.875em;
 	}
-}
-
-&:focus {
-	&::-webkit-input-placeholder {
-		color: aliceblue;
-	}
-
-	&::-moz-placeholder {
-		color: #aba992;
-	}
-
-	&:placeholder {
-		color: #1f1f1f;
-	}
-
-	&::-ms-placeholder {
-		color: aliceblue;
-	}
-}
-
-&::-moz-placeholder {
-	color: aliceblue;
-	font-size: 0.875em;
-}
-
-&::placeholder {
-	color: #1f1f1f;
-	font-size: 0.875em;
-}
-
-&::-ms-placeholder {
-	color: aliceblue;
-	font-size: 0.875em;
-}
-
-&:hover {
-	width: 470px;
-	max-width: 470px;
-	height: 110px;
-	max-height: 110px;
-	padding: 15px;
-	background: #1f1f1f15;
-	outline: none;
-	font-family: 'Lato',
-		sans-serif;
-	font-size: 0.875em;
-	border: #1f1f1f15;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-
-	&::-webkit-input-placeholder {
-		color: aliceblue;
-		font-size: 0.875em;
-	}
 
 	&:focus {
 		&::-webkit-input-placeholder {
 			color: aliceblue;
 		}
 
-		&:-moz-placeholder {
+		&::-moz-placeholder {
 			color: #aba992;
 		}
 
 		&:placeholder {
-			color: #aba992;
+			color: #1f1f1f;
 		}
 
-		&:-ms-placeholder {
-			color: #aba992;
+		&::-ms-placeholder {
+			color: aliceblue;
 		}
 	}
 
 	&::-moz-placeholder {
-		color: #aba992;
+		color: aliceblue;
 		font-size: 0.875em;
 	}
 
 	&::placeholder {
+		color: #1f1f1f;
+		font-size: 0.875em;
+	}
+
+	&::-ms-placeholder {
 		color: aliceblue;
 		font-size: 0.875em;
-		color: aliceblue;
+	}
+
+	&:hover {
+		width: 470px;
+		max-width: 470px;
+		height: 110px;
+		max-height: 110px;
+		padding: 15px;
+		background: #1f1f1f15;
+		outline: none;
+		font-family: 'Lato',
+			sans-serif;
 		font-size: 0.875em;
-		background: #1f1f1f;
-		color: #aba992;
+		border: #1f1f1f15;
+		transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+
+		&::-webkit-input-placeholder {
+			color: aliceblue;
+			font-size: 0.875em;
+		}
+
+		&:focus {
+			&::-webkit-input-placeholder {
+				color: aliceblue;
+			}
+
+			&:-moz-placeholder {
+				color: #aba992;
+			}
+
+			&:placeholder {
+				color: #aba992;
+			}
+
+			&:-ms-placeholder {
+				color: #aba992;
+			}
+		}
+
+		&::-moz-placeholder {
+			color: #aba992;
+			font-size: 0.875em;
+		}
+
+		&::placeholder {
+			color: aliceblue;
+			font-size: 0.875em;
+			color: aliceblue;
+			font-size: 0.875em;
+			background: #1f1f1f;
+			color: #aba992;
+		}
 	}
 }
 

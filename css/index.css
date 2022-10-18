@@ -89,8 +89,7 @@ header nav a:hover {
 body {
   font-family: 'Lato', sans-serif;
   color: #2e2e2e;
-  /*background-color: #9b4831;*/
-  background-image: url("/moreno/imagenes/Tiendas\ Naturales-90.jpg");
+  background-color: #9b4831;
   width: 100%;
   height: 100vh;
 }
@@ -258,23 +257,6 @@ input:hover::placeholder {
   font-size: 0.875em;
 }
 
-textarea {
-  width: 470px;
-  max-width: 470px;
-  height: 110px;
-  max-height: 110px;
-  padding: 15px;
-  background: #1f1f1f15;
-  outline: none;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  border: #1f1f1f15;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
 textarea::-webkit-input-placeholder {
   color: aliceblue;
   font-size: 0.875em;
@@ -322,8 +304,20 @@ textarea::-ms-placeholder {
 }
 
 textarea:hover {
-  background: #1f1f1f;
-  color: #aba992;
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: #1f1f1f15;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: #1f1f1f15;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
 }
 
 textarea:hover::-webkit-input-placeholder {
@@ -352,6 +346,8 @@ textarea:hover::-webkit-input-placeholder {
   font-size: 0.875em;
   color: aliceblue;
   font-size: 0.875em;
+  background: #1f1f1f;
+  color: #aba992;
 }
 
 textarea:hover:-ms-input-placeholder {
@@ -359,6 +355,8 @@ textarea:hover:-ms-input-placeholder {
   font-size: 0.875em;
   color: aliceblue;
   font-size: 0.875em;
+  background: #1f1f1f;
+  color: #aba992;
 }
 
 textarea:hover::-ms-input-placeholder {
@@ -366,6 +364,8 @@ textarea:hover::-ms-input-placeholder {
   font-size: 0.875em;
   color: aliceblue;
   font-size: 0.875em;
+  background: #1f1f1f;
+  color: #aba992;
 }
 
 textarea:hover::placeholder {
@@ -373,6 +373,8 @@ textarea:hover::placeholder {
   font-size: 0.875em;
   color: aliceblue;
   font-size: 0.875em;
+  background: #1f1f1f;
+  color: #aba992;
 }
 
 #form {
@@ -430,7 +432,8 @@ a:hover {
 #proyectos {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
   padding: 15px;
   text-align: center;
   font-size: 13px;
@@ -463,3 +466,239 @@ a:hover {
         grid-template-columns: 1fr;
   }
 }
+
+/*footer .website-logo{
+  margin-bottom: 1.2rem;
+  font-size: calc(1vw + 20px);
+}*/
+/*MEDIA QUERY*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: var(--dark);
+  color: white;
+  background-color: #20202000;
+  font-size: 12px;
+}
+
+footer .social-link:nth-of-type(2) {
+  background-image: url(/moreno/imagenes/icons8-twitter-64.png);
+}
+
+footer .social-link:nth-of-type(3) {
+  background-image: url(/moreno/imagenes/icons8-instagram-48.png);
+}
+
+.copyright-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: aliceblue;
+}
+
+.copyright {
+  opacity: 0.7;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.footer-menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 35%;
+  color: aliceblue;
+}
+
+.footer-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 3rem 6rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: aliceblue;
+}
+
+.footer-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-info {
+  margin: 0.2rem 0;
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu-item-footer {
+  margin: 0.2rem 0;
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu-item-footer:hover {
+  opacity: 1;
+}
+
+.menu-title {
+  font-size: var(--medium-text-font);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 100%;
+}
+
+.social-link {
+  height: 100%;
+  width: 30px;
+  background-image: url(/moreno/imagenes/icons8-facebook-f-50.png);
+  background-size: 70%;
+  background-position: center;
+  margin-right: 1rem;
+  background-repeat: no-repeat;
+}
+
+.social-link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-content-container {
+    width: 100%;
+    padding: 2rem 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-content-container:nth-of-type(1) {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer-content-container:nth-of-type(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .footer-menus {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer-menus .footer-content-container:nth-of-type(1) {
+    width: 45%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-bottom: none;
+  }
+  .footer-menus .footer-content-container:nth-of-type(2) {
+    width: 45%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-bottom: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
