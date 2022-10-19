@@ -138,46 +138,13 @@ body {
 input {
 	&::-webkit-input-placeholder {
 		color: aliceblue;
-		font-size: 0.875em;
-	}
-
-	&:focus {
-		&::-webkit-input-placeholder {
-			color: aliceblue;
-		}
-
-		&::-moz-placeholder {
-			color: #aba992;
-		}
-
-		&::placeholder {
-			color: aliceblue;
-		}
-
-		&::-ms-placeholder {
-			color: aliceblue;
-		}
-	}
-
-	&::-moz-placeholder {
-		color: aliceblue;
-		font-size: 0.875em;
-	}
-
-	&::placeholder {
-		color: aliceblue;
-		font-size: 0.875em;
-	}
-
-	&::-ms-placeholder {
-		color: aliceblue;
-		font-size: 0.875em;
+		font-size: 12px;
 	}
 
 	&:hover {
 		&::-webkit-input-placeholder {
 			color: aliceblue;
-			font-size: 0.875em;
+			font-size: 12px;
 		}
 
 		&:focus {
@@ -192,38 +159,29 @@ input {
 			&::placeholder {
 				color: #aba992;
 			}
-
-			&::-ms-placeholder {
-				color: #aba992;
-			}
 		}
 
 		&::-moz-placeholder {
 			color: #aba992;
-			font-size: 0.875em;
+			font-size: 12px;
 		}
 
 		&::placeholder {
 			color: aliceblue;
-			font-size: 0.875em;
+			font-size: 12px;
 		}
-
-		/*background: #1f1f1f;
-		color: #aba992;*/
 	}
 
-	background: #1f1f1f;
-	font-size: 0.875em;
+	background: #1f1f1f67;
+	font-size: 12px;
 	width: 470px;
 	height: 50px;
 	padding: 0px 15px 0px 15px;
 	outline: none;
-	border: #1f1f1f;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
+	border: #1f1f1f00;
+	color: aliceblue;
 }
+
 #form {
 	position: relative;
 	width: 500px;
@@ -232,22 +190,19 @@ input {
 
 #submit {
 	background: #1f1f1f15;
+	border: #1f1f1f00;
 	width: 470px;
 	padding: 0;
-	margin: -5px 0px 0px 0px;
-	font-family: 'Lato', sans-serif;
+	margin: 0px 0px 0px 0px;
 	font-size: 0.875em;
-	border: #1f1f1f15;
 	outline: none;
 	cursor: pointer;
 	border-top: none;
 	color: aliceblue;
-	border-radius: 2px;
 
 	&:hover {
 		background: #1f1f1f;
 		color: #aba992;
-		border-radius: 2px;
 	}
 }
 

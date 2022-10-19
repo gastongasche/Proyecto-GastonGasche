@@ -132,77 +132,24 @@ body {
 }
 
 input {
-  background: #1f1f1f;
-  font-size: 0.875em;
+  background: #1f1f1f67;
+  font-size: 12px;
   width: 470px;
   height: 50px;
   padding: 0px 15px 0px 15px;
   outline: none;
-  border: #1f1f1f;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-input::-webkit-input-placeholder {
-  color: aliceblue;
-  font-size: 0.875em;
-}
-
-input:focus::-webkit-input-placeholder {
-  color: aliceblue;
-}
-
-input:focus:-ms-input-placeholder {
-  color: aliceblue;
-}
-
-input:focus::-ms-input-placeholder {
-  color: aliceblue;
-}
-
-input:focus::placeholder {
-  color: aliceblue;
-}
-
-input:focus::-ms-placeholder {
+  border: #1f1f1f00;
   color: aliceblue;
 }
 
 input::-webkit-input-placeholder {
   color: aliceblue;
-  font-size: 0.875em;
-}
-
-input:-ms-input-placeholder {
-  color: aliceblue;
-  font-size: 0.875em;
-}
-
-input::-ms-input-placeholder {
-  color: aliceblue;
-  font-size: 0.875em;
-}
-
-input::placeholder {
-  color: aliceblue;
-  font-size: 0.875em;
-}
-
-input::-ms-placeholder {
-  color: aliceblue;
-  font-size: 0.875em;
-}
-
-input:hover {
-  /*background: #1f1f1f;
-		color: #aba992;*/
+  font-size: 12px;
 }
 
 input:hover::-webkit-input-placeholder {
   color: aliceblue;
-  font-size: 0.875em;
+  font-size: 12px;
 }
 
 input:hover:focus::-webkit-input-placeholder {
@@ -221,28 +168,24 @@ input:hover:focus::placeholder {
   color: #aba992;
 }
 
-input:hover:focus::-ms-placeholder {
-  color: #aba992;
-}
-
 input:hover::-webkit-input-placeholder {
   color: aliceblue;
-  font-size: 0.875em;
+  font-size: 12px;
 }
 
 input:hover:-ms-input-placeholder {
   color: aliceblue;
-  font-size: 0.875em;
+  font-size: 12px;
 }
 
 input:hover::-ms-input-placeholder {
   color: aliceblue;
-  font-size: 0.875em;
+  font-size: 12px;
 }
 
 input:hover::placeholder {
   color: aliceblue;
-  font-size: 0.875em;
+  font-size: 12px;
 }
 
 #form {
@@ -253,23 +196,20 @@ input:hover::placeholder {
 
 #submit {
   background: #1f1f1f15;
+  border: #1f1f1f00;
   width: 470px;
   padding: 0;
-  margin: -5px 0px 0px 0px;
-  font-family: 'Lato', sans-serif;
+  margin: 0px 0px 0px 0px;
   font-size: 0.875em;
-  border: #1f1f1f15;
   outline: none;
   cursor: pointer;
   border-top: none;
   color: aliceblue;
-  border-radius: 2px;
 }
 
 #submit:hover {
   background: #1f1f1f;
   color: #aba992;
-  border-radius: 2px;
 }
 
 .nosotros {
