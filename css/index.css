@@ -8,10 +8,10 @@
 header {
   width: 100%;
   overflow: hidden;
-  background: #1f1f1f;
+  background: #ffffff00;
   margin-bottom: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: bolder;
+  /*font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bolder;*/
 }
 
 header .logo {
@@ -27,11 +27,10 @@ header nav {
 }
 
 header nav a {
-  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
   display: inline-block;
   color: aliceblue;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 20px;
   line-height: normal;
   font-size: 12px;
   -webkit-transition: all 500ms ease;
@@ -39,29 +38,14 @@ header nav a {
 }
 
 header nav a:hover {
-  border-radius: 2px;
   color: aliceblue;
 }
 
 .wrapper {
-  width: 90%;
-  max-width: 1000px;
+  width: 85%;
+  max-width: 850px;
   margin: auto;
   overflow: hidden;
-}
-
-.header2 {
-  position: fixed;
-  height: 100px;
-}
-
-.header2 .logo {
-  line-height: 100px;
-  font-size: 30px;
-}
-
-.header2 nav {
-  line-height: 100px;
 }
 
 @media screen and (max-width: 950px) {
@@ -126,9 +110,12 @@ body {
   text-align: justify;
   font-size: 12px;
   padding: 45px;
-  background-color: #2424248f;
-  color: aliceblue;
+  background-color: aliceblue;
+  color: #1f1f1f;
   margin-top: -20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 3px;
 }
 
 input {
@@ -244,15 +231,16 @@ a:hover {
   display: grid;
   -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
-  padding: 15px;
+  padding: 13px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bolder;
-  padding: 12px;
-  background-color: #232425;
+  background-color: #1f1f1f;
   margin-top: -20px;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: bolder;
+  /*margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 3px;
+	color: #aba992;*/
 }
 
 @media screen and (max-width: 768px) {
