@@ -24,7 +24,7 @@ header {
 		line-height: 200px;
 
 		a {
-			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			/*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 			display: inline-block;
 			color: aliceblue;
 			text-decoration: none;
@@ -95,7 +95,7 @@ header {
 body {
 	font-family: 'Lato', sans-serif;
 	color: rgb(46, 46, 46);
-	background-color: #9b4831;
+	background-image: url("/moreno/imagenes/Tiendas\ Naturales-90.jpg");
 	width: 100%;
 	height: 100vh;
 }
@@ -121,7 +121,7 @@ body {
 }
 
 #contactofondo {
-	background-color: #1f1f1f;
+	background-image: url("/moreno/imagenes/Tiendas\ Naturales-90.jpg");
 }
 
 .texto {
@@ -215,7 +215,6 @@ input {
 		background: #1f1f1f;
 		color: #aba992;
 	}
-
 	background: #1f1f1f15;
 	font-family: 'Lato',
 	sans-serif;
@@ -247,7 +246,7 @@ textarea {
 			color: #aba992;
 		}
 
-		&:placeholder {
+		&::placeholder {
 			color: #1f1f1f;
 		}
 
@@ -413,12 +412,6 @@ a {
 		grid-template-columns: 1fr;
 	}
 }
-
-/*footer .website-logo{
-  margin-bottom: 1.2rem;
-  font-size: calc(1vw + 20px);
-}*/
-/*MEDIA QUERY*/
 * {
 	margin: 0;
 	padding: 0;
@@ -588,4 +581,7 @@ footer {
 			}
 		}
 	}
+}
+.copy {
+	
 }

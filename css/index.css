@@ -27,7 +27,7 @@ header nav {
 }
 
 header nav a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
   display: inline-block;
   color: aliceblue;
   text-decoration: none;
@@ -89,7 +89,7 @@ header nav a:hover {
 body {
   font-family: 'Lato', sans-serif;
   color: #2e2e2e;
-  background-color: #9b4831;
+  background-image: url("/moreno/imagenes/Tiendas Naturales-90.jpg");
   width: 100%;
   height: 100vh;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 #contactofondo {
-  background-color: #1f1f1f;
+  background-image: url("/moreno/imagenes/Tiendas Naturales-90.jpg");
 }
 
 .texto {
@@ -266,11 +266,15 @@ textarea:focus::-webkit-input-placeholder {
   color: aliceblue;
 }
 
-textarea:focus::-moz-placeholder {
-  color: #aba992;
+textarea:focus:-ms-input-placeholder {
+  color: #1f1f1f;
 }
 
-textarea:focus:placeholder {
+textarea:focus::-ms-input-placeholder {
+  color: #1f1f1f;
+}
+
+textarea:focus::placeholder {
   color: #1f1f1f;
 }
 
@@ -467,11 +471,6 @@ a:hover {
   }
 }
 
-/*footer .website-logo{
-  margin-bottom: 1.2rem;
-  font-size: calc(1vw + 20px);
-}*/
-/*MEDIA QUERY*/
 * {
   margin: 0;
   padding: 0;
