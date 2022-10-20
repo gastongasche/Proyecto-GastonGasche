@@ -157,7 +157,7 @@ body {
 		}
 		background: #1f1f1f67;
 		font-size: 12px;
-		width: 470px;
+		width: 300px;
 		height: 50px;
 		padding: 0px 15px 0px 15px;
 		outline: none;
@@ -166,15 +166,17 @@ body {
 	}
 
 	#form {
-		position: relative;
-		width: 500px;
+		/*position: relative;*/
+		display: grid;
+		grid-template-columns: 1fr;
+		width: 300px;
 		margin: 50px auto 100px auto;
 	}
 
 	#submit {
 		background: #1f1f1f15;
 		border: #1f1f1f00;
-		width: 470px;
+		width: 300px;
 		padding: 0;
 		margin: 0px 0px 0px 0px;
 		font-size: 0.875em;
@@ -234,6 +236,7 @@ body {
 		}
 		.nosotros {
 			grid-template-columns: 1fr;
+			font-size: 10px;
 		}
 		.texto {
 			grid-template-columns: 1fr;
@@ -484,12 +487,5 @@ body {
 			&:hover {
 				opacity: 0.3;
 			}
-		}
-	}
-
-	@media (max-width: 768px) {
-		.footer-container {
-			padding: 2rem;
-			flex-direction: column;
 		}
 	}
