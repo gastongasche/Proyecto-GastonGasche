@@ -22,18 +22,13 @@ header {
 	nav {
 		float: right;
 		line-height: 200px;
-
+		font-family:Arial, sans-serif;
 		a {
 			display: inline-block;
-			color: aliceblue;
 			text-decoration: none;
-			padding: 20px;
-			line-height: normal;
-			font-size: 12px;
-			-webkit-transition: all 500ms ease;
-			-o-transition: all 500ms ease;
-			transition: all 500ms ease;
-
+			padding: 15px;
+			line-height:normal;
+			font-size: 13px;
 			&:hover {
 				color: aliceblue;
 			}
@@ -93,7 +88,7 @@ body {
 }
 
 #Levisfondo {
-	background-image: url("/moreno/imagenes/Levis-79.jpg");
+	background-image: url("/moreno/imagenes/Levis-12.jpg");
 	background-size: cover;
 }
 #Markovafondo {
@@ -179,7 +174,7 @@ body {
 	}
 
 	#submit {
-		background: #1f1f1f15;
+		background: #1f1f1f67;
 		border: #1f1f1f00;
 		width: 300px;
 		padding: 0;
@@ -230,7 +225,7 @@ body {
 		text-align: center;
 		font-size: 12px;
 		font-weight: bolder;
-		background-color: #1f1f1f;
+		background-color: #1f1f1fc2;
 		margin-top: -20px;
 	}
 
