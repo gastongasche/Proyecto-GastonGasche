@@ -8,7 +8,6 @@
 header {
   width: 100%;
   overflow: hidden;
-  background: #ffffff00;
   margin-bottom: 20px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: bolder;
@@ -70,7 +69,7 @@ header nav a:hover {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url("/moreno/imagenes/Tiendas Naturales-137.jpg");
+  background-image: url("/moreno/imagenes/citrus.jpg");
   background-size: cover;
 }
 
@@ -80,17 +79,17 @@ body {
 }
 
 #Chichifondo {
-  background-image: url("/moreno/imagenes/Chichimamerry-156.jpg");
+  background-image: url("/moreno/imagenes/chichi153.jpg");
   background-size: cover;
 }
 
 #Levisfondo {
-  background-image: url("/moreno/imagenes/Levis-12.jpg");
+  background-image: url("/moreno/imagenes/levis12.jpg");
   background-size: cover;
 }
 
 #Markovafondo {
-  background-image: url("/moreno/imagenes/Markova-84.jpg");
+  background-image: url("/moreno/imagenes/markova84.jpg");
   background-size: cover;
 }
 
@@ -100,12 +99,12 @@ body {
 }
 
 #contactofondo {
-  background-image: url("/moreno/imagenes/tienda.jpg");
+  background-image: url("/moreno/imagenes/citrus.jpg");
   background-size: cover;
 }
 
 #gianduia {
-  background-image: url("/moreno/imagenes/Markova-36.jpg");
+  background-image: url("/moreno/imagenes/marco36.jpg");
   background-size: cover;
 }
 
@@ -204,7 +203,7 @@ input:hover::placeholder {
 }
 
 #submit:hover {
-  background: #1f1f1f;
+  background: #1f1f1faf;
   color: #aba992;
 }
 
