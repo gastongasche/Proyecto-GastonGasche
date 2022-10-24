@@ -17,10 +17,10 @@ header {
   overflow: auto;
   font-family: 'Noto Sans JP', sans-serif;
   max-width: 900px;
-  margin: auto;
 }
 
 header .logo {
+  margin-left: 30px;
   color: aliceblue;
   font-size: 60px;
   line-height: 200px;
@@ -29,8 +29,9 @@ header .logo {
 }
 
 header nav {
+  margin-right: 30px;
   float: right;
-  line-height: 200px;
+  line-height: 210px;
   font-family: 'Lucida Sans', Verdana, sans-serif;
   font-size: 12px;
 }
@@ -248,11 +249,13 @@ a:hover {
     width: 100%;
     text-align: center;
     line-height: 80px;
+    margin-left: 0px;
   }
   header nav {
     width: 100%;
     text-align: center;
     line-height: 55px;
+    margin-right: 0px;
   }
 }
 
