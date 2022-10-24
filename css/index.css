@@ -27,6 +27,7 @@ header nav {
   float: right;
   line-height: 200px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
 
 header nav a {
@@ -34,7 +35,6 @@ header nav a {
   text-decoration: none;
   padding: 15px;
   line-height: normal;
-  font-size: 13px;
 }
 
 header nav a:hover {
@@ -51,15 +51,6 @@ header nav a:hover {
     width: 100%;
     text-align: center;
     line-height: 100px;
-  }
-  .header2 {
-    height: auto;
-  }
-  .header2 .logo {
-    line-height: 50px;
-  }
-  .header2 nav {
-    line-height: 50px;
   }
 }
 

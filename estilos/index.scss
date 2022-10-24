@@ -12,7 +12,6 @@ header {
 	width: 85%;
 	max-width: 850px;
 	margin: auto;
-
 	.logo {
 		color: aliceblue;
 		font-size: 60px;
@@ -25,13 +24,13 @@ header {
 		float: right;
 		line-height: 200px;
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12px;
 
 		a {
 			display: inline-block;
 			text-decoration: none;
 			padding: 15px;
 			line-height: normal;
-			font-size: 13px;
 
 			&:hover {
 				color: aliceblue;
@@ -52,18 +51,6 @@ header {
 			width: 100%;
 			text-align: center;
 			line-height: 100px;
-		}
-	}
-
-	.header2 {
-		height: auto;
-
-		.logo {
-			line-height: 50px;
-		}
-
-		nav {
-			line-height: 50px;
 		}
 	}
 }
