@@ -166,13 +166,12 @@ input {
 }
 
 .nosotros {
-	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 45px;
+	grid-column-gap: 35px;
 	text-align: justify;
 	font-size: 12px;
-	padding: 35px;
+	padding: 25px;
 	background-color: #2424248f;
 	color: aliceblue;
 	margin-top: -20px;
@@ -195,10 +194,11 @@ a {
 
 .mask {
 	width: 135px;
-	height: 135px;
-	border-radius: 3px;
+	height: 175px;
+	border-radius: 2px;
 	float: left;
-	padding: 25px;
+	vertical-align: middle;
+	margin-right: 15px;
 }
 
 #proyectos {
@@ -350,7 +350,7 @@ footer {
 
 		.nosotros {
 			grid-template-columns: 1fr;
-			font-size: 10px;
+			padding: 25px;
 		}
 		#gaston {
 			padding-top: 12px;
@@ -383,10 +383,7 @@ footer {
 
 			.mask {
 				width: 75px;
-				height: 75px;
-				border-radius: 5px;
-				float: left;
-				padding: 10px;
+				height: 95px;
 			}
 
 		}
