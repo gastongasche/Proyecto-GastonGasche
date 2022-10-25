@@ -16,11 +16,11 @@ header {
   width: 100%;
   overflow: auto;
   font-family: 'Noto Sans JP', sans-serif;
-  max-width: 900px;
+  max-width: 1280px;
 }
 
 header .logo {
-  margin-left: 30px;
+  margin-left: 150px;
   color: aliceblue;
   font-size: 60px;
   line-height: 200px;
@@ -29,7 +29,7 @@ header .logo {
 }
 
 header nav {
-  margin-right: 30px;
+  margin-right: 45px;
   float: right;
   line-height: 210px;
   font-family: 'Lucida Sans', Verdana, sans-serif;
@@ -275,7 +275,8 @@ a:hover {
   .logo {
     width: 100%;
     text-align: center;
-    /*font-size: 15px;*/
+    /*font-size-adjust:80%;*/
+    font-size: 15px;
   }
   .nosotros {
     -ms-grid-columns: 1fr;
