@@ -32,7 +32,6 @@ header nav {
   float: right;
   line-height: 235px;
   font-family: 'Lucida Sans', Verdana, sans-serif;
-  font-size: 12px;
 }
 
 header nav a {
@@ -306,6 +305,9 @@ footer .social-link:nth-of-type(3) {
     font-size: 60px;
     margin-top: 25px;
   }
+  nav {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 830px) {
@@ -347,6 +349,7 @@ footer .social-link:nth-of-type(3) {
     text-align: center;
     line-height: 35px;
     margin-right: 0px;
+    font-size: 10px;
   }
 }
 
@@ -380,8 +383,6 @@ footer .social-link:nth-of-type(3) {
     text-align: center;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    font-size: 9px;
-    border-radius: 2px;
   }
   .logo {
     text-align: center;
@@ -390,6 +391,9 @@ footer .social-link:nth-of-type(3) {
   }
   .texto {
     font-size: 10px;
+  }
+  footer {
+    font-size: 9px;
   }
 }
 /*# sourceMappingURL=index.css.map */
