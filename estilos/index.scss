@@ -83,10 +83,10 @@ header {
 .texto {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 45px;
+	grid-column-gap: 35px;
 	text-align: justify;
-	font-size: 12px;
-	padding: 45px;
+	font-size: 13px;
+	padding: 35px;
 	background-color: #2424248f;
 	color: aliceblue;
 	margin-top: -20px;
@@ -171,8 +171,8 @@ input {
 	grid-column-gap: 35px;
 	text-align: justify;
 	font-size: 12px;
-	padding: 25px;
-	background-color: #2424248f;
+	padding: 35px;
+	background-color: #242424;
 	color: aliceblue;
 	margin-top: -20px;
 }
@@ -208,7 +208,7 @@ a {
 	text-align: center;
 	font-size: 12px;
 	font-weight: bolder;
-	background-color: #1f1f1fc2;
+	background-color: #242424;
 	margin-top: -20px;
 }
 
@@ -345,7 +345,7 @@ footer {
 		.texto {
 			grid-template-columns: 1fr;
 			margin-top: 10px;
-			padding: 10px;
+			padding: 30px;
 		}
 
 		.nosotros {
@@ -375,6 +375,7 @@ footer {
 
 			.texto {
 				font-size: 10px;
+				margin: 25;
 			}
 
 			footer {
