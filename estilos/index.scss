@@ -166,12 +166,13 @@ input {
 }
 
 .nosotros {
+	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 75px;
+	grid-column-gap: 45px;
 	text-align: justify;
 	font-size: 12px;
-	padding: 45px;
+	padding: 35px;
 	background-color: #2424248f;
 	color: aliceblue;
 	margin-top: -20px;
@@ -192,6 +193,14 @@ a {
 	}
 }
 
+.mask {
+	width: 135px;
+	height: 135px;
+	border-radius: 3px;
+	float: left;
+	padding: 25px;
+}
+
 #proyectos {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -202,6 +211,8 @@ a {
 	background-color: #1f1f1fc2;
 	margin-top: -20px;
 }
+
+
 
 footer {
 	position: absolute;
@@ -341,7 +352,9 @@ footer {
 			grid-template-columns: 1fr;
 			font-size: 10px;
 		}
-
+		#gaston {
+			padding-top: 12px;
+		}
 		.logo {
 			text-align: center;
 			font-size: 40px;
@@ -367,6 +380,16 @@ footer {
 			footer {
 				font-size: 9px;
 			}
+
+			.mask {
+				width: 75px;
+				height: 75px;
+				border-radius: 5px;
+				float: left;
+				padding: 10px;
+			}
+
 		}
 	}
 }
+/*************************/

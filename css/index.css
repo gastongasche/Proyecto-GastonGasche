@@ -182,14 +182,15 @@ input:hover::placeholder {
 }
 
 .nosotros {
+  margin: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  grid-column-gap: 75px;
+  grid-column-gap: 45px;
   text-align: justify;
   font-size: 12px;
-  padding: 45px;
+  padding: 35px;
   background-color: #2424248f;
   color: aliceblue;
   margin-top: -20px;
@@ -206,6 +207,14 @@ a:visited {
 
 a:hover {
   color: aliceblue;
+}
+
+.mask {
+  width: 135px;
+  height: 135px;
+  border-radius: 3px;
+  float: left;
+  padding: 25px;
 }
 
 #proyectos {
@@ -375,6 +384,9 @@ footer .social-link:nth-of-type(3) {
         grid-template-columns: 1fr;
     font-size: 10px;
   }
+  #gaston {
+    padding-top: 12px;
+  }
   .logo {
     text-align: center;
     font-size: 40px;
@@ -399,5 +411,14 @@ footer .social-link:nth-of-type(3) {
   footer {
     font-size: 9px;
   }
+  .mask {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    float: left;
+    padding: 10px;
+  }
 }
+
+/*************************/
 /*# sourceMappingURL=index.css.map */
