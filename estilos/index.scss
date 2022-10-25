@@ -144,6 +144,7 @@ input {
 	grid-template-columns: 1fr;
 	width: 300px;
 	margin: 50px auto 100px auto;
+	justify-content: center;
 }
 
 #submit {
@@ -299,6 +300,7 @@ footer {
 		margin-right: 100px;
 		border-radius: 2px;
 		margin-top: 10px;
+		padding: auto;
 	}
 
 	footer {
@@ -348,8 +350,8 @@ footer {
 
 		@media screen and (max-width: 380px) {
 			#proyectos {
-				text-align: center;
 				grid-template-columns: 1fr;
+				font-size: 10px;
 			}
 
 			.logo {

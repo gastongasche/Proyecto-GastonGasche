@@ -158,6 +158,9 @@ input:hover::placeholder {
       grid-template-columns: 1fr;
   width: 300px;
   margin: 50px auto 100px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #submit {
@@ -334,6 +337,7 @@ footer .social-link:nth-of-type(3) {
     margin-right: 100px;
     border-radius: 2px;
     margin-top: 10px;
+    padding: auto;
   }
   footer {
     font-size: 10px;
@@ -380,9 +384,9 @@ footer .social-link:nth-of-type(3) {
 
 @media screen and (max-width: 830px) and (max-width: 586px) and (max-width: 380px) {
   #proyectos {
-    text-align: center;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    font-size: 10px;
   }
   .logo {
     text-align: center;
