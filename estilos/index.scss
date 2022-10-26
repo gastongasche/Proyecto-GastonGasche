@@ -90,6 +90,7 @@ header {
 	background-color: #242424;
 	color: aliceblue;
 	margin-top: -20px;
+	line-height : 18px;
 }
 
 input {
@@ -176,6 +177,7 @@ input {
 	background-color: #242424;
 	color: aliceblue;
 	margin-top: -20px;
+	line-height : 18px;
 }
 
 a {
@@ -212,8 +214,6 @@ a {
 	background-color: #242424;
 	margin-top: -20px;
 }
-
-
 
 footer {
 	position: absolute;
@@ -309,11 +309,7 @@ footer {
 
 	#proyectos {
 		grid-template-columns: 1fr 1fr 1fr;
-		margin-left: 100px;
-		margin-right: 100px;
-		border-radius: 2px;
 		margin-top: 10px;
-		padding: auto;
 	}
 
 	footer {
@@ -340,7 +336,6 @@ footer {
 	@media screen and (max-width: 586px) {
 		#proyectos {
 			grid-template-columns: 1fr 1fr;
-			font-size: 10px;
 			text-align: center;
 		}
 
@@ -365,8 +360,11 @@ footer {
 
 		@media screen and (max-width: 380px) {
 			#proyectos {
-				grid-template-columns: 1fr;
 				font-size: 10px;
+				text-align: center;
+			}
+			.nosotros {
+				line-height : 15px;
 			}
 
 			.logo {
@@ -378,6 +376,7 @@ footer {
 			.texto {
 				font-size: 10px;
 				margin: 25;
+				line-height : 15px;
 			}
 
 			footer {
